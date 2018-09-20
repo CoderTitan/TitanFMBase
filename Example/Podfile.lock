@@ -1,0 +1,52 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - TitanFMBase (0.1.0):
+    - TitanFMBase/Base (= 0.1.0)
+    - TitanFMBase/Category (= 0.1.0)
+    - TitanFMBase/Network (= 0.1.0)
+    - TitanFMBase/Tools (= 0.1.0)
+  - TitanFMBase/Base (0.1.0)
+  - TitanFMBase/Category (0.1.0)
+  - TitanFMBase/Network (0.1.0):
+    - AFNetworking
+    - SDWebImage
+    - TitanFMBase/Category
+  - TitanFMBase/Tools (0.1.0)
+
+DEPENDENCIES:
+  - TitanFMBase (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  TitanFMBase:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  TitanFMBase: a527652fc66e166d265f5e990d025b4cf5218c37
+
+PODFILE CHECKSUM: 54d6760b2e273250a3c59c7eda00ea94cd7354aa
+
+COCOAPODS: 1.5.3

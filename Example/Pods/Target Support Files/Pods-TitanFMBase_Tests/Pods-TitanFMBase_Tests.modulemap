@@ -1,0 +1,6 @@
+framework module Pods_TitanFMBase_Tests {
+  umbrella header "Pods-TitanFMBase_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
